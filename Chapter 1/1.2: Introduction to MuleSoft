@@ -139,7 +139,7 @@ For example, when a client sends an HTTP request:
 
 The exact processing steps depend on the integration requirements.
 
-8. What Are APIs, and How Are They Related to MuleSoft?
+## 8. What Are APIs, and How Are They Related to MuleSoft?
 
 An API (Application Programming Interface) defines how one software application can interact with another.
 
