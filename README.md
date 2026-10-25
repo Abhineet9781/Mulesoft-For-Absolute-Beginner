@@ -70,6 +70,13 @@ Build ten worked applications step by step using screenshot references, then com
 1. [**8.1 — Event, Mule Event, and Mule 3 vs Mule 4 Events**](Chapter%208/8.1-Event-Mule-Event-Mule3-vs-Mule4-Event.md)  
    Learn what a Mule event contains, follow payload/attributes/variables through a flow, compare Mule 3 and Mule 4, and build a sample order API with a Mermaid diagram.
 
+### Chapter 9 — Routing and Parallel Processing
+
+1. [**9.1 — Choice Router with Implementation**](Chapter%209/9.1-Choice-Router-with-Implementation.md)  
+   Route an event based on ordered conditions and build a discount-category API.
+2. [**9.2 — Scatter-Gather with Implementation**](Chapter%209/9.2-Scatter-Gather-with-Implementation.md)  
+   Run independent routes in parallel and gather their results into a combined response.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
