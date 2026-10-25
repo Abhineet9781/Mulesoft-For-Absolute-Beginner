@@ -26,6 +26,16 @@ Welcome! Use the chapter links below to read the formatted Markdown lessons dire
 2. [**4.2 — Postman Installation**](Chapter%204/4.2-Postman-Installation.md)  
    Install Postman and send a simple test request to confirm it works.
 
+### Chapter 5 — First Mule Application and HTTP Basics
+1. [**5.1 — Basic Connectors and Components in Anypoint Studio**](Chapter%205/5.1-Basic-Connectors-in-Anypoint-Studio.md)  
+   Learn HTTP Listener, Logger, Set Variable, Set Payload, Transform Message, and HTTP Request.
+2. [**5.2 — Understanding localhost, Port, and Path**](Chapter%205/5.2-Localhost-Port-and-Path.md)  
+   Understand the URL parts used to call a local Mule endpoint.
+3. [**5.3 — HTTP Methods: GET, POST, PUT, PATCH, DELETE**](Chapter%205/5.3-HTTP-Methods-GET-POST-PUT-PATCH-DELETE.md)  
+   Learn common HTTP methods and how to try them in Postman.
+4. [**5.4 — Build and Debug Your First Mule Application**](Chapter%205/5.4-First-Mule-Application-Listener-Logger-Debug-Postman.md)  
+   Build a Listener-and-Logger flow, run it, call it from Postman, and explore Studio debugging.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
