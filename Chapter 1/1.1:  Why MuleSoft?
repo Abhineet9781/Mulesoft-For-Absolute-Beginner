@@ -1,3 +1,7 @@
+# Chapter 1.1: Why MuleSoft?
+
+## Why Do We Need MuleSoft?
+
 Modern organizations use multiple applications to manage their business operations. For example, Salesforce manages customer information, SAP handles business processes, and databases store business data.
 
 These applications often work independently and may use different technologies and data formats. Connecting them directly can require significant development effort and ongoing maintenance.
