@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">MuleSoft API-Led Connectivity Architecture</title>
+  <desc id="desc">Web and mobile applications consume Experience APIs, which call Process APIs. Process APIs orchestrate reusable System APIs that connect to CRM, inventory, and order-management systems.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker>
+    <style>
+      .heading{font:700 30px Arial,sans-serif;fill:#0f172a}
+      .subheading{font:400 16px Arial,sans-serif;fill:#475569}
+      .layer{font:700 19px Arial,sans-serif;fill:#0f172a}
+      .label{font:700 17px Arial,sans-serif;fill:#0f172a}
+      .small{font:400 14px Arial,sans-serif;fill:#334155}
+      .note{font:400 14px Arial,sans-serif;fill:#475569}
+      .edge{fill:none;stroke:#475569;stroke-width:2.5;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="900" rx="22" fill="#f8fafc"/>
+  <text x="600" y="54" text-anchor="middle" class="heading">MuleSoft API-Led Connectivity</text>
+  <text x="600" y="82" text-anchor="middle" class="subheading">Reusable integration through three API layers</text>
+
+  <rect x="48" y="112" width="1104" height="145" rx="16" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="76" y="143" class="layer">CONSUMING APPLICATIONS</text>
+  <rect x="260" y="164" width="260" height="62" rx="10" fill="#ffffff" stroke="#60a5fa" stroke-width="2"/>
+  <text x="390" y="190" text-anchor="middle" class="label">Web Application</text>
+  <text x="390" y="210" text-anchor="middle" class="small">Browser / website</text>
+  <rect x="680" y="164" width="260" height="62" rx="10" fill="#ffffff" stroke="#60a5fa" stroke-width="2"/>
+  <text x="810" y="190" text-anchor="middle" class="label">Mobile Application</text>
+  <text x="810" y="210" text-anchor="middle" class="small">iOS / Android</text>
+
+  <rect x="48" y="285" width="1104" height="145" rx="16" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="76" y="316" class="layer">EXPERIENCE LAYER</text>
+  <text x="1124" y="316" text-anchor="end" class="small">Channel-specific data and APIs</text>
+  <rect x="260" y="338" width="260" height="62" rx="10" fill="#ffffff" stroke="#4ade80" stroke-width="2"/>
+  <text x="390" y="364" text-anchor="middle" class="label">Web Experience API</text>
+  <text x="390" y="384" text-anchor="middle" class="small">Tailored for the website</text>
+  <rect x="680" y="338" width="260" height="62" rx="10" fill="#ffffff" stroke="#4ade80" stroke-width="2"/>
+  <text x="810" y="364" text-anchor="middle" class="label">Mobile Experience API</text>
+  <text x="810" y="384" text-anchor="middle" class="small">Tailored for mobile</text>
+
+  <rect x="48" y="458" width="1104" height="125" rx="16" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="76" y="489" class="layer">PROCESS LAYER</text>
+  <text x="1124" y="489" text-anchor="end" class="small">Reusable business logic and orchestration</text>
+  <rect x="350" y="508" width="500" height="52" rx="10" fill="#ffffff" stroke="#fb923c" stroke-width="2"/>
+  <text x="600" y="530" text-anchor="middle" class="label">Order Process API</text>
+  <text x="600" y="548" text-anchor="middle" class="small">Coordinates customer, inventory, and order workflows</text>
+
+  <rect x="48" y="611" width="1104" height="132" rx="16" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="76" y="642" class="layer">SYSTEM LAYER</text>
+  <text x="1124" y="642" text-anchor="end" class="small">Controlled access to underlying systems</text>
+  <rect x="90" y="663" width="290" height="56" rx="10" fill="#ffffff" stroke="#a78bfa" stroke-width="2"/>
+  <text x="235" y="686" text-anchor="middle" class="label">Customer System API</text>
+  <text x="235" y="705" text-anchor="middle" class="small">Customer data</text>
+  <rect x="455" y="663" width="290" height="56" rx="10" fill="#ffffff" stroke="#a78bfa" stroke-width="2"/>
+  <text x="600" y="686" text-anchor="middle" class="label">Inventory System API</text>
+  <text x="600" y="705" text-anchor="middle" class="small">Stock availability</text>
+  <rect x="820" y="663" width="290" height="56" rx="10" fill="#ffffff" stroke="#a78bfa" stroke-width="2"/>
+  <text x="965" y="686" text-anchor="middle" class="label">Order System API</text>
+  <text x="965" y="705" text-anchor="middle" class="small">Order records</text>
+
+  <rect x="48" y="771" width="1104" height="88" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="76" y="801" class="layer">BACKEND SYSTEMS</text>
+  <rect x="130" y="813" width="210" height="32" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="235" y="834" text-anchor="middle" class="small">CRM</text>
+  <rect x="495" y="813" width="210" height="32" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="600" y="834" text-anchor="middle" class="small">Inventory System</text>
+  <rect x="860" y="813" width="210" height="32" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="965" y="834" text-anchor="middle" class="small">Order Management</text>
+
+  <path d="M390 226 V338" class="edge"/>
+  <path d="M810 226 V338" class="edge"/>
+  <path d="M390 400 V438 H600 V508" class="edge"/>
+  <path d="M810 400 V438 H600" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <path d="M600 560 V598 H235 V663" class="edge"/>
+  <path d="M600 598 V663" class="edge"/>
+  <path d="M600 598 H965 V663" class="edge"/>
+  <path d="M235 719 V813" class="edge"/>
+  <path d="M600 719 V813" class="edge"/>
+  <path d="M965 719 V813" class="edge"/>
+  <text x="600" y="884" text-anchor="middle" class="note">Illustrative architecture: actual API dependencies depend on business requirements.</text>
+</svg>
