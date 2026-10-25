@@ -65,6 +65,11 @@ Build ten worked applications step by step using screenshot references, then com
 9. [**7.9 — Request Validation and Error Responses**](Chapter%207/7.9-Request-Validation-Errors.md) — validation, conditionals, and predictable responses.
 10. [**7.10 — Customer Integration Capstone**](Chapter%207/7.10-Customer-Integration-Capstone.md) — combine inbound API, DataWeave, variables, logging, HTTP Request, and subflows.
 
+### Chapter 8 — Mule Events
+
+1. [**8.1 — Event, Mule Event, and Mule 3 vs Mule 4 Events**](Chapter%208/8.1-Event-Mule-Event-Mule3-vs-Mule4-Event.md)  
+   Learn what a Mule event contains, follow payload/attributes/variables through a flow, compare Mule 3 and Mule 4, and build a sample order API with a Mermaid diagram.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
