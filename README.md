@@ -36,6 +36,20 @@ Welcome! Use the chapter links below to read the formatted Markdown lessons dire
 4. [**5.4 — Build and Debug Your First Mule Application**](Chapter%205/5.4-First-Mule-Application-Listener-Logger-Debug-Postman.md)  
    Build a Listener-and-Logger flow, run it, call it from Postman, and explore Studio debugging.
 
+### Chapter 6 — Connector Configuration Deep Dives
+1. [**6.1 — HTTP Listener: Configuration Deep Dive**](Chapter%206/6.1-HTTP-Listener-Deep-Dive.md)  
+   Configure Listener path, host, port, base path, methods, responses, and advanced options.
+2. [**6.2 — Logger: Configuration Deep Dive**](Chapter%206/6.2-Logger-Deep-Dive.md)  
+   Learn message expressions, log levels, categories, and safe logging practices.
+3. [**6.3 — HTTP Request: Configuration Deep Dive**](Chapter%206/6.3-HTTP-Request-Deep-Dive.md)  
+   Configure outbound HTTP calls, methods, paths, headers, query parameters, and responses.
+4. [**6.4 — Transform Message: Configuration Deep Dive**](Chapter%206/6.4-Transform-Message-Deep-Dive.md)  
+   Explore the DataWeave editor, input/output metadata, mappings, and previews.
+5. [**6.5 — Set Variable: Configuration Deep Dive**](Chapter%206/6.5-Set-Variable-Deep-Dive.md)  
+   Store and reuse values across a Mule event.
+6. [**6.6 — Set Payload: Configuration Deep Dive**](Chapter%206/6.6-Set-Payload-Deep-Dive.md)  
+   Set message payloads, expressions, MIME types, and encoding.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
