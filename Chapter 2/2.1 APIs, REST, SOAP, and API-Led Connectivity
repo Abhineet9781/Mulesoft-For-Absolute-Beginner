@@ -1,3 +1,7 @@
+# Chapter 2: APIs, REST, SOAP, and API-Led Connectivity
+
+## 1. What Is an API?
+
 API stands for Application Programming Interface.
 
 An API allows two software applications to communicate with each other and exchange data. It defines how a client can request information or perform an operation through a system.
