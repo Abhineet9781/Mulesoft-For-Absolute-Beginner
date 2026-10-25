@@ -80,7 +80,7 @@ The client sends a structured XML request containing the account information. Th
 
 SOAP is commonly used in enterprise environments where formal service contracts, standardized messaging, and established security or transaction requirements are important.
 
-4. REST API vs SOAP API
+## 4. REST API vs SOAP API
 
 REST and SOAP are different approaches to communication between applications. REST is an architectural style, whereas SOAP is a protocol.
 
@@ -266,7 +266,7 @@ If the company launches a new customer channel, it can reuse existing Process an
 
 This separation improves reuse, maintainability, and flexibility.
 
-10. How API-Led Connectivity Relates to MuleSoft
+## 10. How API-Led Connectivity Relates to MuleSoft
 
 MuleSoft developers can implement these layers using Mule applications and APIs developed through Anypoint Platform.
 
