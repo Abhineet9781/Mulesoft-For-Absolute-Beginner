@@ -16,7 +16,11 @@ Welcome! Use the chapter links below to read the formatted Markdown lessons dire
 1. [**2.1 — APIs, REST, SOAP, and API-Led Connectivity**](Chapter%202/2.1-APIs-REST-SOAP-and-API-Led-Connectivity.md)  
    Explore API basics, compare REST and SOAP, and learn the System, Process, and Experience API layers.
 
-## 🖼️ Diagram Asset
+### Chapter 3 — Mule Flows
+1. [**3.1 — Flow, Private Flow, and Subflow**](Chapter%203/3.1-Flow-Private-Flow-and-Subflow.md)  
+   Learn how a flow starts processing and how private flows and subflows reuse processing steps.
+
+## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
 
