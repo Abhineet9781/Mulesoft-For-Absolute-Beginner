@@ -50,6 +50,21 @@ Welcome! Use the chapter links below to read the formatted Markdown lessons dire
 6. [**6.6 — Set Payload: Configuration Deep Dive**](Chapter%206/6.6-Set-Payload-Deep-Dive.md)  
    Set message payloads, expressions, MIME types, and encoding.
 
+### Chapter 7 — Practice, Practice, Practice
+
+Build ten worked applications step by step using screenshot references, then complete a similar independent challenge at the end of each lesson. Screenshots are included only in the worked tutorials—not in the challenge prompts.
+
+1. [**10.1 — Employee Greeting API**](Chapter%207/10.1-Employee-Greeting-API.md) — Listener, Set Variable, Set Payload, Logger.
+2. [**10.2 — Query-Parameter Calculator**](Chapter%207/10.2-Query-Parameter-Calculator.md) — query parameters and DataWeave calculations.
+3. [**10.3 — POST JSON Order API**](Chapter%207/10.3-POST-JSON-Order-API.md) — POST body, JSON transformation, variables, and logging.
+4. [**10.4 — Employee Directory API**](Chapter%207/10.4-Employee-Directory-API.md) — URI parameters, query parameters, and lookup logic.
+5. [**10.5 — Call an External API with HTTP Request**](Chapter%207/10.5-HTTP-Request-External-API.md) — outbound HTTP calls and response transformation.
+6. [**10.6 — Order Enrichment with a Reusable Subflow**](Chapter%207/10.6-Order-Enrichment-Subflow.md) — Flow Reference, subflows, variables, and logging.
+7. [**10.7 — GET, POST, PUT, and DELETE API**](Chapter%207/10.7-CRUD-Methods-API.md) — HTTP methods and CRUD-style routes.
+8. [**10.8 — DataWeave Product Catalog**](Chapter%207/10.8-DataWeave-Product-Catalog.md) — arrays, map, calculations, and JSON output.
+9. [**10.9 — Request Validation and Error Responses**](Chapter%207/10.9-Request-Validation-Errors.md) — validation, conditionals, and predictable responses.
+10. [**10.10 — Customer Integration Capstone**](Chapter%207/10.10-Customer-Integration-Capstone.md) — combine inbound API, DataWeave, variables, logging, HTTP Request, and subflows.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
