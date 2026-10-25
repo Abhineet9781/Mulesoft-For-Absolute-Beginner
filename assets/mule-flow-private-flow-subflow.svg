@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="690" viewBox="0 0 1100 690" role="img" aria-labelledby="title desc">
+<title id="title">MuleSoft Flow, Private Flow, and Subflow</title>
+<desc id="desc">An incoming HTTP request enters a main flow. The main flow calls a private flow and then a subflow using Flow Reference. Both return processing to the main flow, which sends a response.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+  <style>
+    .heading{font:700 27px Arial,sans-serif;fill:#0f172a}.sub{font:16px Arial,sans-serif;fill:#334155}
+    .boxTitle{font:700 19px Arial,sans-serif;fill:#0f172a}.body{font:15px Arial,sans-serif;fill:#334155}
+    .label{font:14px Arial,sans-serif;fill:#334155}.line{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1100" height="690" rx="18" fill="#f8fafc"/>
+<text x="550" y="48" text-anchor="middle" class="heading">MuleSoft: Flow, Private Flow &amp; Subflow</text>
+<text x="550" y="76" text-anchor="middle" class="sub">One request, with reusable processing steps</text>
+
+<rect x="380" y="103" width="340" height="58" rx="12" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+<text x="550" y="128" text-anchor="middle" class="boxTitle">HTTP Listener</text>
+<text x="550" y="148" text-anchor="middle" class="body">Receives the request (source)</text>
+<path class="line" d="M550 161 V195"/>
+
+<rect x="310" y="198" width="480" height="90" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="550" y="225" text-anchor="middle" class="boxTitle">Main Flow</text>
+<text x="550" y="249" text-anchor="middle" class="body">Source + processors</text>
+<text x="550" y="270" text-anchor="middle" class="body">Controls the request's main sequence</text>
+
+<path class="line" d="M550 288 V324 H275 V354"/>
+<path class="line" d="M550 324 H825 V354"/>
+<text x="390" y="316" text-anchor="middle" class="label">Flow Reference</text>
+<text x="710" y="316" text-anchor="middle" class="label">Flow Reference</text>
+
+<rect x="65" y="357" width="420" height="137" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="275" y="386" text-anchor="middle" class="boxTitle">Private Flow</text>
+<text x="275" y="411" text-anchor="middle" class="body">No event source of its own</text>
+<text x="275" y="434" text-anchor="middle" class="body">Can define its own error handler</text>
+<text x="275" y="457" text-anchor="middle" class="body">Called by name with Flow Reference</text>
+<text x="275" y="478" text-anchor="middle" class="label">Returns to the calling flow</text>
+
+<rect x="615" y="357" width="420" height="137" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="825" y="386" text-anchor="middle" class="boxTitle">Subflow</text>
+<text x="825" y="411" text-anchor="middle" class="body">No event source of its own</text>
+<text x="825" y="434" text-anchor="middle" class="body">Reuses processors in the caller's context</text>
+<text x="825" y="457" text-anchor="middle" class="body">Uses the calling flow's error handling</text>
+<text x="825" y="478" text-anchor="middle" class="label">Returns to the calling flow</text>
+
+<path class="line" d="M275 494 V525 H550 V550"/>
+<path class="line" d="M825 494 V525 H550"/>
+<rect x="350" y="553" width="400" height="58" rx="12" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+<text x="550" y="578" text-anchor="middle" class="boxTitle">Main Flow continues</text>
+<text x="550" y="598" text-anchor="middle" class="body">Builds and sends the response</text>
+<path class="line" d="M550 611 V632"/>
+<text x="550" y="656" text-anchor="middle" class="sub">Key idea: a Flow starts work; private flows and subflows organize reusable work.</text>
+</svg>
