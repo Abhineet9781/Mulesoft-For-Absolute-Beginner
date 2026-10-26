@@ -102,6 +102,19 @@ This chapter moves from communication fundamentals to messaging technology and t
 4. [**12.4 — Real-World Messaging Patterns and Capstone**](Chapter%2012/12.4-Real-World-Messaging-Patterns-and-Capstone.md)  
    Apply the concepts to e-commerce, payment/inventory, banking alerts, healthcare reminders, and background imports, then design an end-to-end order-processing integration.
 
+### Chapter 13 — Error Handling in Mule 4
+
+A practical, implementation-focused chapter built around a memorable decision process: **Find the failure → Handle it at the right scope → Recover or Propagate → Respond and Record**.
+
+1. [**13.1 — Error Handling Fundamentals and Mule Errors**](Chapter%2013/13.1-Error-Handling-Fundamentals-and-Mule-Errors.md)  
+   Learn error types, handler scope, On Error Continue vs On Error Propagate, common error categories, and a simple decision tree.
+2. [**13.2 — Hands-On: Implement On-Error-Continue and On-Error-Propagate**](Chapter%2013/13.2-Implementing-On-Error-Continue-and-Propagate.md)  
+   Build and test a `GET /orders/{orderId}` example with success, not-found, and simulated-failure paths, plus HTTP status configuration and curl tests.
+3. [**13.3 — Try Scope, Error Types, and Choosing the Right Handler**](Chapter%2013/13.3-Try-Scope-Error-Types-and-Error-Handling-Strategy.md)  
+   Handle optional enrichment locally, let required operations fail honestly, and learn why payment timeouts need special care.
+4. [**13.4 — Retries, Transactions, and Production Error Handling**](Chapter%2013/13.4-Retries-Transactions-and-Production-Error-Handling.md)  
+   Learn safe retries, message redelivery, transactions, the transactional outbox pattern, secure logging, observability, and failure-path testing.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
