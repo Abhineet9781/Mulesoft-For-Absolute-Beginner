@@ -89,6 +89,19 @@ Build ten worked applications step by step using screenshot references, then com
 1. [**11.1 — Anypoint Platform: Complete Beginner's Guide**](Chapter%2011/11.1-Anypoint-Platform-Complete-Guide.md)  
    Explore the platform architecture, control plane and runtime plane, Studio, Design Center, Exchange, API Manager, Runtime Manager, Access Management, Governance, Monitoring, MQ, Object Store, deployment options, CI/CD, and a practical deployment walkthrough.
 
+### Chapter 12 — Messaging, Brokers, and Communication Patterns
+
+This chapter moves from communication fundamentals to messaging technology and then to production-style designs. Four subchapters are used so the topics build in the right order.
+
+1. [**12.1 — Synchronous vs Asynchronous Communication and Orchestration**](Chapter%2012/12.1-Synchronous-Asynchronous-Communication-and-Orchestration.md)  
+   Learn request/response vs messaging, orchestration vs choreography, timeouts, retries, idempotency, and when to use each style.
+2. [**12.2 — JMS, Queues, Topics, and Message Delivery**](Chapter%2012/12.2-JMS-Messaging-Queues-Topics-and-Delivery.md)  
+   Understand JMS, producers and consumers, point-to-point queues, publish-subscribe topics, acknowledgements, delivery semantics, retries, and dead-letter queues.
+3. [**12.3 — Message Brokers, ActiveMQ, and Anypoint MQ**](Chapter%2012/12.3-Message-Brokers-ActiveMQ-and-Anypoint-MQ.md)  
+   Learn what a broker does, distinguish ActiveMQ Classic and Artemis, compare self-managed ActiveMQ with managed Anypoint MQ, and choose the correct Mule connector.
+4. [**12.4 — Real-World Messaging Patterns and Capstone**](Chapter%2012/12.4-Real-World-Messaging-Patterns-and-Capstone.md)  
+   Apply the concepts to e-commerce, payment/inventory, banking alerts, healthcare reminders, and background imports, then design an end-to-end order-processing integration.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
