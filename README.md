@@ -161,6 +161,24 @@ Learn RAML 1.0 from fundamentals through types, reusable patterns, security, moc
 7. [**Bookstore API starter contract (RAML 1.0)**](Chapter%2015/bookstore-api.raml)  
    A companion practice file. Validate with your RAML editor/parser and adapt the placeholder host before using it.
 
+### Chapter 16 — DataWeave: Beginner to Intermediate
+
+A comprehensive, implementation-focused DataWeave course covering language fundamentals, types, coercion, null handling, selectors, functions, collections, strings, dates, object reshaping, error-aware mappings, modules, performance, Mule flow usage, and testing. Includes **24 worked examples** and **30 independent implementation problems**.
+
+1. [**16.0 — DataWeave Intermediate Learning Path**](Chapter%2016/16.0-README-DataWeave-Intermediate-Learning-Path.md) — course roadmap, outcomes, and official references.
+2. [**16.1 — Fundamentals, Syntax, and Execution**](Chapter%2016/16.1-DataWeave-Fundamentals-Syntax-and-Execution.md) — script structure, directives, expressions, formats, and Mule event data.
+3. [**16.2 — Types, Coercion, Null, and Defaults**](Chapter%2016/16.2-DataWeave-Types-Coercion-Null-and-Defaults.md) — type declarations, casts, missing vs null, safe navigation, and money handling.
+4. [**16.3 — Selectors, Arrays, Objects, and Paths**](Chapter%2016/16.3-DataWeave-Selectors-Arrays-Objects-and-Paths.md) — key/index/descendant selectors, nested paths, and dynamic keys.
+5. [**16.4 — Functions, Lambdas, Variables, and Scope**](Chapter%2016/16.4-DataWeave-Functions-Lambdas-Variables-and-Scope.md) — reusable functions, lambdas, local scope, and composition.
+6. [**16.5 — Collection Functions and Data Reshaping**](Chapter%2016/16.5-DataWeave-Collection-Functions-and-Data-Reshaping.md) — map, filter, flatMap, flatten, reduce, groupBy, orderBy, distinctBy, pluck, and object functions.
+7. [**16.6 — Strings, Numbers, Dates, and Formatting**](Chapter%2016/16.6-DataWeave-Strings-Numbers-Dates-and-Formatting.md) — normalization, parsing, regex concepts, numeric precision, and timezone-aware dates.
+8. [**16.7 — Objects, Flattening, and Dynamic Keys**](Chapter%2016/16.7-DataWeave-Objects-Flattening-and-Dynamic-Keys.md) — conditional fields, object merging, nested arrays, XML namespaces, and CSV output.
+9. [**16.8 — Conditions, Pattern Matching, and Robust Mappings**](Chapter%2016/16.8-DataWeave-Conditions-Pattern-Matching-and-Robust-Mappings.md) — business rules, match expressions, validation, and error strategy.
+10. [**16.9 — Multi-Input, Modules, Reuse, and Performance**](Chapter%2016/16.9-DataWeave-Multi-Input-Modules-Reuse-and-Performance.md) — read(), reusable modules, lookup data, streaming considerations, and optimization.
+11. [**16.10 — DataWeave in Mule Flows and Testing**](Chapter%2016/16.10-DataWeave-in-Mule-Flows-and-Testing.md) — Transform Message, Set Payload, Set Variable, MUnit, and troubleshooting.
+12. [**16.11 — 24 Worked DataWeave Practice Examples**](Chapter%2016/16.11-DataWeave-24-Worked-Practice-Examples.md) — 24 scripts to run, inspect, modify, and test.
+13. [**16.12 — 30 Independent Implementation Problems**](Chapter%2016/16.12-DataWeave-30-Implementation-Problems.md) — 30 progressively harder tasks with acceptance criteria and a scoring rubric.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
