@@ -179,6 +179,19 @@ A comprehensive, implementation-focused DataWeave course covering language funda
 12. [**16.11 — 24 Worked DataWeave Practice Examples**](Chapter%2016/16.11-DataWeave-24-Worked-Practice-Examples.md) — 24 scripts to run, inspect, modify, and test.
 13. [**16.12 — 30 Independent Implementation Problems**](Chapter%2016/16.12-DataWeave-30-Implementation-Problems.md) — 30 progressively harder tasks with acceptance criteria and a scoring rubric.
 
+### Chapter 17 — API-Led Connectivity: Two End-to-End Mule 4 POCs
+
+Build the same Customer 360 integration in two ways: one contract-first POC using RAML imported into Anypoint Studio with APIkit, and one manually implemented without RAML. Both POCs use System, Process, and Experience APIs as separate layers and include independent testing, end-to-end tests, troubleshooting, and implementation challenges.
+
+1. [**17.0 — API-Led Connectivity: Two POCs Learning Path**](Chapter%2017/17.0-README-API-Led-Connectivity-Two-POCs.md) — overview, outcomes, project plan, and official references.
+2. [**17.1 — Architecture and Lab Design**](Chapter%2017/17.1-API-Led-Connectivity-Architecture-and-Lab-Design.md) — responsibilities, request flow, sample contracts, local ports, and project layout.
+3. [**17.2 — POC 1: Design the Experience API in RAML**](Chapter%2017/17.2-POC-1-Design-Experience-API-with-RAML.md) — create and validate a RAML 1.0 contract.
+4. [**17.3 — POC 1: Import RAML into Anypoint Studio with APIkit**](Chapter%2017/17.3-POC-1-Import-RAML-into-Studio-with-APIkit.md) — scaffold API routing and implement the generated Experience API resource flow.
+5. [**17.4 — POC 1: Implement All Three Layers**](Chapter%2017/17.4-POC-1-Implement-All-Three-Layers.md) — build System, Process, and Experience APIs and test the end-to-end request.
+6. [**17.5 — POC 2: Build API-Led Connectivity Without RAML**](Chapter%2017/17.5-POC-2-API-Led-Without-RAML.md) — manually configure routes and mappings while preserving the same architecture.
+7. [**17.6 — Test, Troubleshoot, and Compare Both POCs**](Chapter%2017/17.6-Test-Troubleshoot-and-Compare-Both-POCs.md) — test matrix, failure behavior, design trade-offs, and production considerations.
+8. [**17.7 — Practice Set and Independent Challenges**](Chapter%2017/17.7-API-Led-Practice-and-Challenges.md) — 10 concept checks and 10 implementation challenges, plus a scoring rubric.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
