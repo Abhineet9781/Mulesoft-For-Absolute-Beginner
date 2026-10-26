@@ -84,6 +84,11 @@ Build ten worked applications step by step using screenshot references, then com
 2. [**10.2 — Batch Execution Phases in Mule 4**](Chapter%2010/10.2-Batch-Execution-Phases.md)  
    Explore Load and Dispatch, Process, and On Complete with official MuleSoft screenshots, diagrams, and a two-step customer-sync implementation.
 
+### Chapter 11 — Anypoint Platform
+
+1. [**11.1 — Anypoint Platform: Complete Beginner's Guide**](Chapter%2011/11.1-Anypoint-Platform-Complete-Guide.md)  
+   Explore the platform architecture, control plane and runtime plane, Studio, Design Center, Exchange, API Manager, Runtime Manager, Access Management, Governance, Monitoring, MQ, Object Store, deployment options, CI/CD, and a practical deployment walkthrough.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
