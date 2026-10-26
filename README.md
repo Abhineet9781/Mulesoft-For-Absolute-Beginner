@@ -141,6 +141,26 @@ Learn Salesforce event-driven integration in the order that makes implementation
 4. [**14.4 — Publish Platform Events from Mule and Production Patterns**](Chapter%2014/14.4-Publish-Platform-Events-from-Mule-and-Production-Patterns.md)  
    Learn the reverse direction, implement an inventory alert architecture, and plan for replay, duplicate delivery, errors, security, and monitoring.
 
+
+### Chapter 15 — RAML: From API Contract to MuleSoft Implementation
+
+Learn RAML 1.0 from fundamentals through types, reusable patterns, security, mock APIs, APIkit implementation, testing, and production governance.
+
+1. [**15.1 — RAML Fundamentals and API Design**](Chapter%2015/15.1-RAML-Fundamentals-and-API-Design.md)  
+   Understand API contracts, RAML vs YAML/OpenAPI/DataWeave, resources, methods, parameters, responses, and design checklists.
+2. [**15.2 — RAML Data Types, Parameters, Examples, and Validation**](Chapter%2015/15.2-RAML-DataTypes-Parameters-Examples-and-Validation.md)  
+   Model request/response bodies, optional properties, constraints, named examples, headers, and parameters.
+3. [**15.3 — Reuse, Traits, Resource Types, Libraries, and Security**](Chapter%2015/15.3-RAML-Reuse-Traits-ResourceTypes-Libraries-and-Security.md)  
+   Refactor repetitive contracts, use fragments and libraries, and describe security without confusing contract declarations with runtime enforcement.
+4. [**15.4 — Hands-On: Design and Mock a Bookstore API**](Chapter%2015/15.4-Hands-On-RAML-Bookstore-API-Design-and-Mocking.md)  
+   Create a Bookstore API contract, review behavior, and try mock requests.
+5. [**15.5 — Implement RAML with APIkit in Mule 4**](Chapter%2015/15.5-Implement-RAML-with-APIkit-in-Mule-4.md)  
+   Scaffold Mule flows, implement operations, test using Postman/curl, and troubleshoot.
+6. [**15.6 — RAML to Production: Versioning, Governance, and Troubleshooting**](Chapter%2015/15.6-RAML-to-Production-Governance-Versioning-and-Troubleshooting.md)  
+   Cover contract evolution, CI/CD quality gates, security, observability, interview questions, and a capstone.
+7. [**Bookstore API starter contract (RAML 1.0)**](Chapter%2015/bookstore-api.raml)  
+   A companion practice file. Validate with your RAML editor/parser and adapt the placeholder host before using it.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
