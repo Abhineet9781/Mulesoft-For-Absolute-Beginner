@@ -128,6 +128,19 @@ Learn event-driven integration step by step: understand Salesforce Platform Even
 4. [**14.4 — Publish Platform Events from Mule and Build an End-to-End Integration**](Chapter%2014/14.4-Publish-Platform-Events-from-Mule-and-End-to-End-Use-Cases.md)  
    Publish `Shipment_Dispatched__e` from Mule, connect both directions, compare Platform Events with Anypoint MQ, and complete a capstone.
 
+### Chapter 14 — Salesforce Platform Events with MuleSoft
+
+Learn Salesforce event-driven integration in the order that makes implementation easiest: concepts, publishing, subscribing from Mule, then production reliability.
+
+1. [**14.1 — Salesforce Platform Events: Fundamentals**](Chapter%2014/14.1-Salesforce-Platform-Events-Fundamentals.md)  
+   Understand publishers, subscribers, event bus, channels, Publish After Commit, and the difference between Platform Events and Change Data Capture (CDC).
+2. [**14.2 — Create and Publish a Salesforce Platform Event**](Chapter%2014/14.2-Create-and-Publish-a-Salesforce-Platform-Event.md)  
+   Define Order_Ready__e, add custom fields, publish a test message with Apex or Flow, and understand the event channel.
+3. [**14.3 — Subscribe to Platform Events from MuleSoft**](Chapter%2014/14.3-Subscribe-to-Platform-Events-from-MuleSoft.md)  
+   Build a Mule 4 subscriber using the appropriate Salesforce Connector or Salesforce Pub/Sub Connector, inspect the payload, transform it, and call a downstream API.
+4. [**14.4 — Publish Platform Events from Mule and Production Patterns**](Chapter%2014/14.4-Publish-Platform-Events-from-Mule-and-Production-Patterns.md)  
+   Learn the reverse direction, implement an inventory alert architecture, and plan for replay, duplicate delivery, errors, security, and monitoring.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
