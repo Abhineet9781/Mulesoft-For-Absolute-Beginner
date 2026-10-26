@@ -192,6 +192,21 @@ Build the same Customer 360 integration in two ways: one contract-first POC usin
 7. [**17.6 — Test, Troubleshoot, and Compare Both POCs**](Chapter%2017/17.6-Test-Troubleshoot-and-Compare-Both-POCs.md) — test matrix, failure behavior, design trade-offs, and production considerations.
 8. [**17.7 — Practice Set and Independent Challenges**](Chapter%2017/17.7-API-Led-Practice-and-Challenges.md) — 10 concept checks and 10 implementation challenges, plus a scoring rubric.
 
+
+### Chapter 18 — Data Transformation in Mule 4: CSV, JSON, PDF, and Binary
+
+A practical chapter on reading and writing structured data with DataWeave, configuring MIME types, converting CSV ↔ JSON, transforming files with the File Connector, returning CSV downloads, preserving PDF/octet-stream bytes, Base64 encoding/decoding, flow diagrams, testing, troubleshooting, and a capstone.
+
+1. [**18.0 — Data Transformation Learning Path**](Chapter%2018/18.0-README-Data-Transformation-CSV-JSON-PDF-Binary.md) — roadmap, architecture diagrams, lab scope, and official references.
+2. [**18.1 — Data Formats, MIME Types, and the Transformation Pipeline**](Chapter%2018/18.1-Data-Formats-MIME-Types-and-Transformation-Pipeline.md) — readers/writers, structured text vs binary, format metadata, and common mistakes.
+3. [**18.2 — CSV to JSON: End-to-End HTTP API**](Chapter%2018/18.2-CSV-to-JSON-End-to-End-HTTP-API.md) — build a POST endpoint, configure the CSV reader, map records, type-convert safely, and test errors.
+4. [**18.3 — JSON to CSV: End-to-End Download API**](Chapter%2018/18.3-JSON-to-CSV-End-to-End-Download-API.md) — select export fields, serialize CSV, set download headers, and test with curl.
+5. [**18.4 — File Connector: Read CSV, Transform, and Write JSON**](Chapter%2018/18.4-File-Connector-CSV-to-JSON.md) — local file conversion, File Read/Write settings, and filesystem error handling.
+6. [**18.5 — Binary, Octet-Stream, and PDF Handling**](Chapter%2018/18.5-Binary-Octet-Stream-and-PDF-Handling.md) — preserve bytes, return a PDF safely, distinguish pass-through from PDF parsing/generation, and address upload safety.
+7. [**18.6 — Base64, Attachments, HTTP Headers, and Safe Binary Delivery**](Chapter%2018/18.6-Base64-Attachments-and-HTTP-Responses.md) — binary/Base64 distinction, decode/encode examples, multipart awareness, and response headers.
+8. [**18.7 — Testing, Troubleshooting, and Studio Flow Snapshots**](Chapter%2018/18.7-Testing-Troubleshooting-and-Flow-Snapshots.md) — flow diagrams to recreate in Studio, test matrix, curl commands, and troubleshooting guide.
+9. [**18.8 — Practice Questions, Mini Labs, and Capstone**](Chapter%2018/18.8-Practice-Questions-Mini-Labs-and-Capstone.md) — concept checks, DataWeave drills, five labs, Employee Export Service capstone, and a 100-point rubric.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
