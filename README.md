@@ -115,6 +115,19 @@ A practical, implementation-focused chapter built around a memorable decision pr
 4. [**13.4 — Retries, Transactions, and Production Error Handling**](Chapter%2013/13.4-Retries-Transactions-and-Production-Error-Handling.md)  
    Learn safe retries, message redelivery, transactions, the transactional outbox pattern, secure logging, observability, and failure-path testing.
 
+### Chapter 14 — Salesforce Platform Events with MuleSoft
+
+Learn event-driven integration step by step: understand Salesforce Platform Events, define and publish an event, subscribe from Mule 4, and build an end-to-end integration.
+
+1. [**14.1 — Platform Events: Fundamentals and Architecture**](Chapter%2014/14.1-Platform-Events-Fundamentals-and-Architecture.md)  
+   Understand publishers, subscribers, Salesforce Event Bus, Platform Events vs Change Data Capture (CDC), publish behavior, replay, and real-time use cases.
+2. [**14.2 — Hands-On: Create and Publish a Salesforce Platform Event**](Chapter%2014/14.2-Create-and-Publish-a-Salesforce-Platform-Event.md)  
+   Create `Order_Placed__e`, define fields, choose publish behavior, and publish a test event through Flow Builder or Apex.
+3. [**14.3 — Hands-On: Subscribe to Salesforce Platform Events from Mule 4**](Chapter%2014/14.3-Subscribe-to-Platform-Events-from-Mule-4.md)  
+   Configure a Salesforce Replay Channel Listener, receive events in Mule, inspect and transform the payload, and troubleshoot the subscription.
+4. [**14.4 — Publish Platform Events from Mule and Build an End-to-End Integration**](Chapter%2014/14.4-Publish-Platform-Events-from-Mule-and-End-to-End-Use-Cases.md)  
+   Publish `Shipment_Dispatched__e` from Mule, connect both directions, compare Platform Events with Anypoint MQ, and complete a capstone.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
