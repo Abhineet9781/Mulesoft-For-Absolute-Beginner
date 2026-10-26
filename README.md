@@ -207,6 +207,22 @@ A practical chapter on reading and writing structured data with DataWeave, confi
 8. [**18.7 — Testing, Troubleshooting, and Studio Flow Snapshots**](Chapter%2018/18.7-Testing-Troubleshooting-and-Flow-Snapshots.md) — flow diagrams to recreate in Studio, test matrix, curl commands, and troubleshooting guide.
 9. [**18.8 — Practice Questions, Mini Labs, and Capstone**](Chapter%2018/18.8-Practice-Questions-Mini-Labs-and-Capstone.md) — concept checks, DataWeave drills, five labs, Employee Export Service capstone, and a 100-point rubric.
 
+
+### Chapter 19 — Database Integration in Mule 4: MySQL, Database Connector, and CRUD POC
+
+Learn how to configure a MySQL JDBC connection in Anypoint Studio, use the Database Connector operations, write parameterized SQL, map database results with DataWeave, handle errors/transactions, and build a complete Employee Management REST API backed by MySQL.
+
+1. [**19.0 — Database Connector, MySQL, and CRUD POC Learning Path**](Chapter%2019/19.0-README-Database-Connector-MySQL-and-CRUD-POC.md) — roadmap, operations, architecture, endpoints, and official references.
+2. [**19.1 — Database Integration Fundamentals and Architecture**](Chapter%2019/19.1-Database-Integration-Fundamentals-and-Architecture.md) — JDBC, global configuration vs operations, flow diagrams, and design principles.
+3. [**19.2 — Install MySQL and Prepare the Database**](Chapter%2019/19.2-Install-MySQL-and-Prepare-the-Database.md) — schema/table SQL, sample records, least-privilege user, and connection prerequisites.
+4. [**19.3 — Configure MySQL Connection in Anypoint Studio**](Chapter%2019/19.3-Configure-MySQL-Connection-in-Anypoint-Studio.md) — driver setup, MySQL Connection, secure properties, Test Connection, and troubleshooting.
+5. [**19.4 — Database Connector Operations Reference**](Chapter%2019/19.4-Database-Connector-Operations-Reference.md) — Select, Query Single, Insert, Update, Delete, bulk operations, stored procedures, DDL, scripts, source concepts, and transactions.
+6. [**19.5 — SQL Parameters, DataWeave Mapping, and Error Handling**](Chapter%2019/19.5-SQL-Parameters-DataWeave-and-Error-Handling.md) — safe input parameters, DB-to-API mapping, validation, SQL injection prevention, and error mapping.
+7. [**19.6 — POC Part 1: Employee API — Create and Read**](Chapter%2019/19.6-POC-Employee-API-Create-and-Read.md) — POST, list, and get-one endpoints with SQL and test requests.
+8. [**19.7 — POC Part 2: Update, Delete, Search, and Bulk Import**](Chapter%2019/19.7-POC-Update-Delete-Search-and-Bulk-Import.md) — update/delete/search, bulk insert, pagination challenge, and advanced operations.
+9. [**19.8 — Transactions, Testing, Troubleshooting, and Flow Snapshots**](Chapter%2019/19.8-Transactions-Testing-Troubleshooting-and-Flow-Snapshots.md) — transaction diagrams, test matrix, troubleshooting, and real Studio screenshot checklist.
+10. [**19.9 — Practice Set, Interview Questions, and Capstone**](Chapter%2019/19.9-Practice-Questions-and-Capstone.md) — implementation challenges, Employee Management API capstone, and 100-point scoring rubric.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
