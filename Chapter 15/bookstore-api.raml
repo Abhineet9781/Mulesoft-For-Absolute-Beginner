@@ -1,0 +1,182 @@
+#%RAML 1.0
+title: Bookstore API
+description: Beginner practice API for learning RAML and Mule 4 APIkit.
+version: v1
+baseUri: https://api.example.com/{version}
+mediaType: application/json
+
+types:
+  Book:
+    type: object
+    additionalProperties: false
+    properties:
+      id: string
+      title:
+        type: string
+        minLength: 1
+        maxLength: 150
+      author:
+        type: string
+        minLength: 1
+      price:
+        type: number
+        minimum: 0
+      inStock: boolean
+  NewBook:
+    type: object
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        minLength: 1
+        maxLength: 150
+      author:
+        type: string
+        minLength: 1
+      price:
+        type: number
+        minimum: 0
+      inStock:
+        type: boolean
+  Error:
+    type: object
+    properties:
+      code: string
+      message: string
+      correlationId?: string
+
+traits:
+  pageable:
+    queryParameters:
+      limit?:
+        type: integer
+        minimum: 1
+        maximum: 100
+        default: 20
+      offset?:
+        type: integer
+        minimum: 0
+        default: 0
+  withCorrelationId:
+    headers:
+      X-Correlation-ID?:
+        type: string
+
+securitySchemes:
+  oauth:
+    description: Placeholder only; configure a real identity provider before deployment.
+    type: OAuth 2.0
+    describedBy:
+      headers:
+        Authorization:
+          type: string
+    settings:
+      accessTokenUri: https://identity.example.com/oauth/token
+      authorizationGrants: [ client_credentials ]
+
+securedBy: [ oauth ]
+
+/books:
+  get:
+    description: List books. This contract does not define persistence or sorting behavior.
+    is: [ pageable, withCorrelationId ]
+    queryParameters:
+      q?:
+        type: string
+      author?:
+        type: string
+    responses:
+      200:
+        body:
+          application/json:
+            type: Book[]
+            example:
+              - id: b-101
+                title: MuleSoft Basics
+                author: A. Learner
+                price: 29.99
+                inStock: true
+      400:
+        body:
+          application/json:
+            type: Error
+  post:
+    description: Create a book.
+    is: [ withCorrelationId ]
+    body:
+      application/json:
+        type: NewBook
+        example:
+          title: MuleSoft Basics
+          author: A. Learner
+          price: 29.99
+          inStock: true
+    responses:
+      201:
+        body:
+          application/json:
+            type: Book
+            example:
+              id: b-101
+              title: MuleSoft Basics
+              author: A. Learner
+              price: 29.99
+              inStock: true
+      400:
+        body:
+          application/json:
+            type: Error
+      409:
+        body:
+          application/json:
+            type: Error
+
+  /{bookId}:
+    uriParameters:
+      bookId:
+        type: string
+        minLength: 1
+    get:
+      is: [ withCorrelationId ]
+      responses:
+        200:
+          body:
+            application/json:
+              type: Book
+        404:
+          body:
+            application/json:
+              type: Error
+    patch:
+      is: [ withCorrelationId ]
+      body:
+        application/json:
+          type: object
+          properties:
+            title?: string
+            author?: string
+            price?:
+              type: number
+              minimum: 0
+            inStock?: boolean
+      responses:
+        200:
+          body:
+            application/json:
+              type: Book
+        400:
+          body:
+            application/json:
+              type: Error
+        404:
+          body:
+            application/json:
+              type: Error
+    delete:
+      is: [ withCorrelationId ]
+      responses:
+        204:
+        404:
+          body:
+            application/json:
+              type: Error
