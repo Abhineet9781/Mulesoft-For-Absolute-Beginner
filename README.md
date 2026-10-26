@@ -77,6 +77,13 @@ Build ten worked applications step by step using screenshot references, then com
 2. [**9.2 — Scatter-Gather with Implementation**](Chapter%209/9.2-Scatter-Gather-with-Implementation.md)  
    Run independent routes in parallel and gather their results into a combined response.
 
+### Chapter 10 — Batch Processing
+
+1. [**10.1 — Batch Processing in Mule 4**](Chapter%2010/10.1-Batch-Processing.md)  
+   Learn when to use a Batch Job, configure Batch Steps, and build a customer-import example using JSON records.
+2. [**10.2 — Batch Execution Phases in Mule 4**](Chapter%2010/10.2-Batch-Execution-Phases.md)  
+   Explore Load and Dispatch, Process, and On Complete with official MuleSoft screenshots, diagrams, and a two-step customer-sync implementation.
+
 ## 🖼️ Diagram Assets
 
 - [**API-Led Connectivity diagram (SVG)**](assets/api-led-connectivity.svg)
