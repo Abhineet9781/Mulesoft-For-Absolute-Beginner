@@ -232,19 +232,19 @@ Learn how to configure a MySQL JDBC connection in Anypoint Studio, use the Datab
 Open the chapter links above—not the extensionless source files—to see rendered headings, lists, code formatting, and links in GitHub's reading view.
 
 
-### Chapter 19 — Keystore, Truststore, TLS, and Mutual TLS in Mule 4
+### Chapter 20 — Keystore, Truststore, TLS, and Mutual TLS in Mule 4
 
-A complete learning path covering why, what, and how: TLS fundamentals, X.509 certificates and certificate chains, keystore vs truststore, JKS/PKCS12/PEM/DER, aliases and passwords, Java keytool commands, inbound HTTPS Listener, outbound HTTPS Requester, mutual TLS (mTLS), troubleshooting, certificate rotation, production security, flow diagrams, practice labs, and a capstone.
+A complete learning path covering TLS fundamentals, X.509 certificates and chains, keystore vs truststore, JKS/PKCS12/PEM/DER, aliases and passwords, Java keytool, inbound HTTPS Listener, outbound HTTPS Requester, mutual TLS (mTLS), troubleshooting, certificate rotation, production security, diagrams, practice labs, and a capstone.
 
-1. [**19.0 — Keystore and Truststore Learning Path**](Chapter%2019/19.0-README-Keystore-Truststore-TLS-Learning-Path.md) — roadmap, outcomes, architecture, and official references.
-2. [**19.1 — TLS, Certificates, and the Trust Model**](Chapter%2019/19.1-TLS-Certificates-and-Trust-Model.md) — encryption, keys, certificate chains, TLS handshake, HTTPS, and mTLS.
-3. [**19.2 — Keystore vs Truststore, Formats, Aliases, and Passwords**](Chapter%2019/19.2-Keystore-Truststore-Formats-Aliases-and-Passwords.md) — store contents, JKS/PKCS12/PEM/DER, aliases, passwords, and secure handling.
-4. [**19.3 — Generate, Inspect, and Export Certificates with keytool**](Chapter%2019/19.3-Keytool-Generate-Inspect-and-Export-Certificates.md) — local lab identity, public certificate export, truststore import, CSR, and inspection.
-5. [**19.4 — Configure an Inbound HTTPS Listener**](Chapter%2019/19.4-Mule-Inbound-HTTPS-Listener.md) — server identity, TLS context, listener setup, and curl verification.
-6. [**19.5 — Configure Outbound HTTPS with a Truststore**](Chapter%2019/19.5-Mule-Outbound-HTTPS-Truststore.md) — remote server trust, custom truststore, hostname verification, and error handling.
-7. [**19.6 — Mutual TLS (mTLS)**](Chapter%2019/19.6-Mutual-TLS-Mule-Client-and-Server-Certificates.md) — client certificates, two-way trust, inbound/outbound patterns, and authorization.
-8. [**19.7 — TLS Troubleshooting and Flow Snapshots**](Chapter%2019/19.7-TLS-Troubleshooting-and-Flow-Snapshots.md) — PKIX errors, SAN mismatch, expiry, key/password issues, diagnostics, and schematic flow diagrams.
-9. [**19.8 — Certificate Lifecycle and Production Security**](Chapter%2019/19.8-Certificate-Lifecycle-and-Production-Security.md) — rotation, secrets, least privilege, monitoring, and incident response.
-10. [**19.9 — Practice, Labs, and Capstone**](Chapter%2019/19.9-Keystore-Truststore-Practice-and-Capstone.md) — hands-on labs, interview questions, scoring rubric, and secure partner API capstone.
+1. [**20.0 — Keystore and Truststore Learning Path**](Chapter%2020/20.0-README-Keystore-Truststore-TLS-Learning-Path.md) — roadmap, outcomes, architecture, and official references.
+2. [**20.1 — TLS, Certificates, and the Trust Model**](Chapter%2020/20.1-TLS-Certificates-and-Trust-Model.md) — encryption, keys, certificate chains, TLS handshake, HTTPS, and mTLS.
+3. [**20.2 — Keystore vs Truststore, Formats, Aliases, and Passwords**](Chapter%2020/20.2-Keystore-Truststore-Formats-Aliases-and-Passwords.md) — store contents, formats, aliases, passwords, and secure handling.
+4. [**20.3 — Generate, Inspect, and Export Certificates with keytool**](Chapter%2020/20.3-Keytool-Generate-Inspect-and-Export-Certificates.md) — lab identity, public certificate export, truststore import, and inspection.
+5. [**20.4 — Configure an Inbound HTTPS Listener**](Chapter%2020/20.4-Mule-Inbound-HTTPS-Listener.md) — server identity, TLS context, listener setup, and verification.
+6. [**20.5 — Configure Outbound HTTPS with a Truststore**](Chapter%2020/20.5-Mule-Outbound-HTTPS-Truststore.md) — remote server trust, custom truststore, hostname verification, and errors.
+7. [**20.6 — Mutual TLS (mTLS)**](Chapter%2020/20.6-Mutual-TLS-Mule-Client-and-Server-Certificates.md) — client certificates, two-way trust, and authorization.
+8. [**20.7 — TLS Troubleshooting and Flow Snapshots**](Chapter%2020/20.7-TLS-Troubleshooting-and-Flow-Snapshots.md) — PKIX errors, SAN mismatch, expiry, key/password issues, and diagrams.
+9. [**20.8 — Certificate Lifecycle and Production Security**](Chapter%2020/20.8-Certificate-Lifecycle-and-Production-Security.md) — rotation, secrets, least privilege, monitoring, and incident response.
+10. [**20.9 — Practice, Labs, and Capstone**](Chapter%2020/20.9-Keystore-Truststore-Practice-and-Capstone.md) — hands-on labs, interview questions, rubric, and secure partner API capstone.
 
-**Security reminder:** certificate files containing private keys and all passwords must stay out of GitHub. Diagrams are schematic; capture actual Anypoint Studio screenshots only after running the labs. Connector XML is version-sensitive and should be checked against your installed Mule/HTTP Connector versions.
+**Security reminder:** keep private keys, keystore files containing private keys, and passwords out of GitHub. Diagrams are schematic; capture actual Studio screenshots after running the labs. Verify version-sensitive XML against your installed Mule Runtime and HTTP Connector.
